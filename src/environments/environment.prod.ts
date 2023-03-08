@@ -1,12 +1,12 @@
 export const environment = {
   production: true,
-  firebase: {
-    apiKey: "AIzaSyCkU_OvO1NOvokLKhHnTQ1SAHrhoeK0mA0",
-    authDomain: "tarjetacredito2-5f310.firebaseapp.com",
-    projectId: "tarjetacredito2-5f310",
-    storageBucket: "tarjetacredito2-5f310.appspot.com",
-    messagingSenderId: "250941555578",
-    appId: "1:250941555578:web:7d01c16c9c854b761f0cc3"
+  firebaseConfig: {
+    apiKey: "AIzaSyCYYv2cMwvxzGCpK5ZUbiuSJevHc3snsPk",
+    authDomain: "credit-card-3741f.firebaseapp.com",
+    projectId: "credit-card-3741f",
+    storageBucket: "credit-card-3741f.appspot.com",
+    messagingSenderId: "279743812755",
+    appId: "1:279743812755:web:d622f72ee55d1d2ef6a966"
   }
   
 };

@@ -21,7 +21,7 @@ export class CrearTarjetaComponent implements OnInit {
     this.form = this.fb.group({
       titular: ['', Validators.required],
       numeroTarjeta: ['', [Validators.required, Validators.minLength(16), Validators.maxLength(16)]],
-      fechaExpiracion: ['', [Validators.required, Validators.minLength(5), Validators.maxLength(5)]],
+      fechaExpiracion: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10)]],
       cvv: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(3)]],
     })
    }
@@ -51,6 +51,7 @@ export class CrearTarjetaComponent implements OnInit {
     }
     
   }
+ 
 
   editarTarjeta(id: string) {
     const TARJETA: any = {

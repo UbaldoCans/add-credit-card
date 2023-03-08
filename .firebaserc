@@ -6,6 +6,13 @@
           "tarjetacredito2-5f310"
         ]
       }
+    },
+    "add-credit-card-ef354": {
+      "hosting": {
+        "TarjetaCredito": [
+          "add-credit-card-ef354"
+        ]
+      }
     }
   }
 }

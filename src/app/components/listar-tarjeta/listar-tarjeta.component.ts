@@ -9,6 +9,7 @@ import { TarjetaService } from 'src/app/services/tarjeta.service';
   styleUrls: ['./listar-tarjeta.component.css']
 })
 export class ListarTarjetaComponent implements OnInit {
+  
   listTarjetas: TarjetaCredito[] = [];
 
   constructor(private _tarjetaService: TarjetaService, 

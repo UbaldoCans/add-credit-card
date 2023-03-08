@@ -1,11 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;500;800&display=swap');
 
-.titulo {
-    text-align: center;
-    font-family: 'Potta One', cursive;
+html body{
+    margin: auto;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(26, 19, 94) 3%, rgb(28, 58, 134) 38%, rgb(64, 117, 163) 68%, rgb(79, 245, 237) 98%);
+    animation: gradient 7s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
